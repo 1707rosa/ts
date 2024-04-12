@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="styles6.css">
+    <script src="./todolist.js" defer></script>
+</head>
+<body>
+<div class="section-todo-list">
+        <h2>To Do List</h2>
+    <div class="input-btn">
+        <input id="add" type="text">
+        <button  onclick="aggTask()">Agregar tarea</button>
+    </div>
+    <div class="list-tasks">
+    <ul>
+            <li><input type="checkbox"> name of task <span>X</span></li>
+            <li><input type="checkbox"> name of task <span>X</span></li>
+            <li><input type="checkbox"> name of task <span>X</span></li>
+            <li><input type="checkbox"> name of task <span>X</span></li>
+    </ul>
+    </div>
+<button class="remove-all" onclick="deleteAll()">Eliminar tareas</button>
+</div>
+
+</body>
+</html>
