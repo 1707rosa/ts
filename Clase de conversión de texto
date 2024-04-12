@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador de texto</title>
+</head>
+<body>
+    <script>
+class AnalizadorTexto{
+    constructor(texto) {
+        this.texto = texto;
+    }
+
+    contarCaracteres() {
+        return this.texto.length;
+    }
+
+    convertirMayus() {
+        return this.texto.toUpperCase();
+    }
+
+    convertirMinus() {
+        return this.texto.toLowerCase();
+    }
+
+    palabraPalindroma() {
+    
+    for (let i = 0; i < texto.length / 2; i++) {
+    if (texto[i] !== texto[texto.length - 1 - i]) {
+        return "no es palindroma";
+    }
+}
+return "si es palindroma";
+    }
+
+}
+let texto = "somos";
+let analizador = new AnalizadorTexto(texto);
+
+console.log("Cantidad de caracteres:", analizador.contarCaracteres());
+console.log("Texto en mayúsculas:", analizador.convertirMayus());
+console.log("Texto en minúsculas:", analizador.convertirMinus());
+console.log("¿Es palíndromo?", analizador.palabraPalindroma());
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
