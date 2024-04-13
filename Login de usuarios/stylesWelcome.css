@@ -1,0 +1,27 @@
+body {
+  background-color: hotpink;
+  font-family: sans-serif;
+    padding: 20px;
+
+}
+
+h2{
+    text-align: center;
+    color:aliceblue;
+
+}
+p{
+    text-align: center;
+}
+a{
+    align-items: center;
+    color:aliceblue;
+}
+a:visited {
+    color: black;
+  }
+  
+  h3{
+    text-align: center;
+    color:aliceblue;
+  }
