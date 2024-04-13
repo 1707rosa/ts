@@ -5,6 +5,12 @@ function logg(){
 if((user=='Rosa' || 'rosa') && password==100423){
     window.location.href= "welcome.html";
 }else{
-    alert('Incorret');
+    alert('Try again, the user or the password is incorrect ');
+    cleardisplay();
 }
 }
+function cleardisplay(){
+    document.getElementById('password').value = '';
+    document.getElementById('user').value = '';
+    }
+    
