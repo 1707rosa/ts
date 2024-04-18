@@ -12,6 +12,7 @@ if ($e < 0){
 }else{
     $x1= (-$b - sqrt($e) )/ (2*$a);
     $x2= (-$b + sqrt($e) )/ (2*$a);
+    echo "Los resultados son: <br>";
     echo "<br> x1 = $x1 <br>";
     echo "x2 = $x2";
 }
