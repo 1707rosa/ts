@@ -3,140 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ministerio de Turismo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
     <style>
         body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        
+            background-color: rgb(159, 90, 205);
         }
-
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 60px;
-            background-color: #ffffff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .header h1 {
-            font-size: 64px;
-            color: #1a237e;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            margin-bottom: 20px;
-        }
-
-        .header p {
-            font-size: 28px;
-            color: #333333;
-            font-style: italic;
-        }
-
-        .candidate {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            margin-bottom: 60px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(154, 112, 202);
         }
-
-        .candidate img {
-            width: 100%;
-            max-width: 400px;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .candidate-info {
-            max-width: 60%;
-        }
-
-        .candidate h2 {
-            font-size: 48px;
-            color: #1a237e;
-            margin-bottom: 20px;
-        }
-
-        .candidate p {
-            font-size: 20px;
-            line-height: 1.6;
-            color: #333333;
-        }
-
-        .vision {
-            background-color: #f5f5f5;
-            padding: 60px;
-            border-radius: 10px;
-            margin-bottom: 60px;
-        }
-
-        .vision h3 {
-            font-size: 36px;
-            color: #1a237e;
-            margin-bottom: 30px;
+        h1{
+            color:white;
             text-align: center;
         }
-
-        .vision p {
-            font-size: 20px;
-            line-height: 1.6;
-            color: #333333;
-            text-align: center;
-            margin-bottom: 1%;
+        .column {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
         }
-
-        .importance {
-            background-color: #1a237e;
-            color: #ffffff;
-            padding: 60px;
-            border-radius: 10px;
+        .button{
+            position: absolute;
+         top: 50%;
+         left: 50%;
+          transform: translate(-50%, -50%);
+         margin-top: 10%;
+            color:blue;
+            background-color: rgb(193, 147, 236);
         }
-
-        .importance h3 {
-            font-size: 36px;
-            margin-bottom: 30px;
+        h2{
+            color:white;
         }
-
-        .importance p {
-            font-size: 20px;
-            line-height: 1.6;
+        .code{
+         background-color:rgb(236, 108, 236) ;
+        }
+        .button2{
+            color:blue;
+            background-color: rgb(193, 147, 236);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Generador de códigos</h1>
+    </header>
+    <!--Columnas donde van los codigos-->
     <div class="container">
-        <header class="header">
-            <h1>Ministerio de Turismo</h1>
-            <p>"Impulsando el turismo sostenible y la marca país"</p>
-        </header>
-
-        <section class="candidate">
-            <img src="https://i.ibb.co/z2B5W4h/my-picture.png" alt="Foto de Jason Mendoza">
-            <div class="candidate-info">
-                <h2>Jason Mendoza</h2>
-                <p>Jason Mendoza es un experto en turismo con una sólida trayectoria en el sector. Ha trabajado en el desarrollo de estrategias para promover el turismo sostenible y fortalecer la marca país de República Dominicana. Su visión es posicionar al país como un destino turístico líder en el Caribe, destacando su rica cultura, hermosas playas y la calidez de su gente. Jason se compromete a impulsar políticas que beneficien tanto a los visitantes como a las comunidades locales.</p>
-            </div>
-        </section>
-
-        <section class="vision">
-            <h3>Visión para el turismo dominicano</h3>
-            <p>Como Ministro de Turismo, mi visión es convertir a República Dominicana en un referente mundial del turismo sostenible y responsable. Trabajaremos para diversificar nuestra oferta turística, promoviendo el ecoturismo, el turismo de aventura y el turismo cultural, al tiempo que fortalecemos nuestra infraestructura y mejoramos la calidad de los servicios. Nuestra meta es crear un modelo de turismo que genere beneficios económicos y sociales para todos los dominicanos, protegiendo nuestro patrimonio natural y cultural para las generaciones venideras.</p>
-        </section>
-
-        <section class="importance">
-            <h3>El turismo como motor de desarrollo económico y social:</h3>
-            <p>El turismo es un sector estratégico para el desarrollo económico y social de República Dominicana. Genera empleos, atrae inversiones y contribuye significativamente al PIB nacional. Pero el turismo no solo tiene un impacto económico, sino que también tiene el poder de mejorar la calidad de vida de las comunidades locales y promover el intercambio cultural. Bajo el liderazgo de Jason Mendoza, el Ministerio de Turismo trabajará incansablemente para desarrollar un modelo de turismo sostenible que beneficie a todos los dominicanos, protegiendo nuestros recursos naturales y culturales para las generaciones futuras. Juntos, haremos de República Dominicana un referente mundial en turismo responsable y de alta calidad.</p>
-        </section>
+        <div class="column" id="column1"></div>
+        <div class="column" id="column2"></div>
+        <div class="column" id="column3"></div>
+        <div class="column" id="column4"></div>
     </div>
+    <button class="button" onclick="random()">Generar</button>
+    <div>
+        <h2 id="codigoTitulo"></h2>
+        <input type="password" class="code" id="verification" placeholder="Ingrese código">
+        <button class='button2'onclick="verificarCodigo()">Verificar</button>
+    </div>
+    <script>
+        var array = [];
+ //Funcion que genera mis codigos
+        function random() {
+            array = [];
+            while (array.length < 40) {
+                const minCeiled = Math.ceil(1000);
+                const maxFloored = Math.floor(9999);
+                //rango de mis codigos generados
+                array.push({
+                    value: Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled),
+                    position: array.length + 1
+                });
+            }
+            mostrarArray(array);
+            mostrarPosicionAleatoria();
+        }
+         //se colocan los codigos del arreglos en las columnas
+        function mostrarArray(array) {
+            const column1 = document.getElementById('column1');
+            const column2 = document.getElementById('column2');
+            const column3 = document.getElementById('column3');
+            const column4 = document.getElementById('column4');
+            column1.innerHTML = '';
+            column2.innerHTML = '';
+            column3.innerHTML = '';
+            column4.innerHTML = '';
+            // se recorre el arreglo  y se distribuyen los 40 codigos de 10 en 10 en cada columna
+            array.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = ` ${item.position}. ${item.value}`;
+                if (item.position <= 10) {
+                    column1.appendChild(li);
+                } else if (item.position <= 20) {
+                    column2.appendChild(li);
+                } else if (item.position <= 30) {
+                    column3.appendChild(li);
+                } else {
+                    column4.appendChild(li);
+                }
+            });
+        }
+             // se generan numeros randoms para asignarselos a cada codigo
+        function obtenerPosicionAleatoria() {
+            return Math.floor(Math.random() * 40) + 1;
+        }
+ 
+        function mostrarPosicionAleatoria() {
+            const posicion = obtenerPosicionAleatoria();
+            const codigoTitulo = document.getElementById('codigoTitulo');
+            codigoTitulo.textContent = `Escriba el código #${posicion}`;
+        }
+        // se ejecuta a la hora que el usuario verifica el codigo
+        function verificarCodigo() {
+            const codeInput = document.getElementById('verification').value; //obtiene el codigo ingresado
+            const codigoTitulo = document.getElementById('codigoTitulo');
+            const position = parseInt(codigoTitulo.textContent.split("#")[1]); // se extrae el numero de posicion que tiene asignado el codigo
+            if (!isNaN(position) && position >= 1 && position <= 40) { //comprueba si la posicion no es un numero y si esta entre el 1 y el 40
+                const codigoCorrecto = array[position - 1].value; //obtiene el codigo que se espera del usuario
+                if (codigoCorrecto == codeInput) { // compara el codigo que ingreso el usuario con el codigo de la lista
+                    alert('¡Código correcto!');
+                } else {
+                    alert('Código incorrecto. Inténtalo de nuevo.');
+                }
+            } else {
+                alert('No hay ninguna posición especificada.');
+            }
+        }
+    </script>
 </body>
 </html>
