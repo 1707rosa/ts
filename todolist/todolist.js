@@ -28,6 +28,15 @@ function deleteAll(){
     tasks=[];
     createHtml();
 }
+function taskCompleted(taskId) {
+    tasks = tasks.map(task => {
+        if (task.id === taskId) {
+            task.completed = !task.completed;
+        }
+        return task;
+    });
+    createHtml(); // Vuelve a la lista de tareas después de marcar la tarea como completada
+}
 
 function createHtml(){ // toma las tareas del arreglo task y las "convierte" en elementos lista, se agrega el checkbox para marcar la tarea como completada
     cleardisplay();
